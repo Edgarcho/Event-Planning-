@@ -17,5 +17,12 @@ public class EventTest {
         Event testEvent = new Event();
         assertEquals(true, testEvent instanceof Event);
     }
-    public void newEvent_
+
+    @Test
+    public void newEvent_addEventName_eventName() throws Exception {
+        Event testEvent = new Event();
+        testEvent.eventName = "Birthday";
+        assertEquals("Birthday", testEvent.eventName);
+    }
+
 }
