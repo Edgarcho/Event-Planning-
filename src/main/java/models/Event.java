@@ -10,7 +10,8 @@ public class Event {
 
     public ArrayList<Object> returnEvent(String partyInfo){
     ArrayList<Object> result = new ArrayList<Object>();
-    return null;
+    result.add("1");
+    return result;
     }
 
 }
