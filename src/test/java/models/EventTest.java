@@ -20,4 +20,12 @@ public class EventTest {
         assertEquals(expectedOutput,testEvent.returnEvent("1"));
     }
 
+    @Test
+    public void returnEvent_returnNextAttributes_ArrayList() throws Exception {
+        Event testEvent = new Event();
+        ArrayList<Object> expectedOutput = new ArrayList<Object>();
+        expectedOutput.add("1");
+        expectedOutput.add("Dinner");
+        assertEquals(expectedOutput,testEvent.returnEvent("Dinner"));
+    }
 }

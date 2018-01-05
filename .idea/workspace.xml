@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2f881bea-c7d1-4124-8092-c667775cf510" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/models/Event.java" afterPath="$PROJECT_DIR$/src/main/java/models/Event.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/models/EventTest.java" afterPath="$PROJECT_DIR$/src/test/java/models/EventTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -48,11 +48,12 @@
       <file leaf-file-name="EventTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/models/EventTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="420">
+              <caret line="28" column="69" lean-forward="false" selection-start-line="28" selection-start-column="69" selection-end-line="28" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#339#347#0" expanded="true" />
+                <element signature="e#641#649#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -356,8 +357,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/models/EventTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Event.java" />
+        <option value="$PROJECT_DIR$/src/test/java/models/EventTest.java" />
       </list>
     </option>
   </component>
@@ -802,6 +803,9 @@
     <history-entry file="EventTest - 2018.01.05 at 14h 15m 00s.xml">
       <configuration name="EventTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="EventTest - 2018.01.05 at 14h 17m 55s.xml">
+      <configuration name="EventTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1340" y="24" width="2156" height="1327" extended-state="0" />
@@ -878,11 +882,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/models/EventTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="420">
+          <caret line="28" column="69" lean-forward="false" selection-start-line="28" selection-start-column="69" selection-end-line="28" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#339#347#0" expanded="true" />
+            <element signature="e#641#649#0" expanded="true" />
           </folding>
         </state>
       </provider>
