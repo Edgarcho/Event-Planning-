@@ -13,19 +13,9 @@ import static org.junit.Assert.*;
 public class EventTest {
 
     @Test
-    public void returnEvent_returnFirstAttributes_ArrayList(){
+    public void newEvent_newInstatiation_newEventObject(){
         Event testEvent = new Event();
-        ArrayList<Object> expectedOutput = new ArrayList<Object>();
-        expectedOutput.add("1");
-        assertEquals(expectedOutput,testEvent.returnEvent("1"));
+        assertEquals(true, testEvent instanceof Event);
     }
-
-    @Test
-    public void returnEvent_returnNextAttributes_ArrayList() throws Exception {
-        Event testEvent = new Event();
-        ArrayList<Object> expectedOutput = new ArrayList<Object>();
-        expectedOutput.add("1");
-        expectedOutput.add("Dinner");
-        assertEquals(expectedOutput,testEvent.returnEvent("Dinner"));
-    }
+    public void newEvent_
 }
