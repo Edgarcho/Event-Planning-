@@ -15,8 +15,8 @@ public class EventTest {
     public void returnEvent_returnFirstAttributes_HashMap(){
         Event testEvent = new Event();
         HashMap<String,Integer> expectedOutput = new HashMap<String,Integer>();
-        expectedOutput.put(Guest,1);
-        assertEquals(expectedOutput,testEvent.returnEvent(Guest,1));
+        expectedOutput.put("Guest",1);
+        assertEquals(expectedOutput,testEvent.returnEvent("Guest",1));
     }
 
 }
