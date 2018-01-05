@@ -1,14 +1,16 @@
 package models;
 
-import java.util.HashMap;
+import java.util.ArrayList;
+
 
 /**
  * Created by Guest on 1/5/18.
  */
 public class Event {
 
-    public HashMap<String,Integer> testEvent(String,Integer partyInfo){
-
+    public ArrayList<Object> returnEvent(String partyInfo){
+    ArrayList<Object> result = new ArrayList<Object>();
+    return null;
     }
 
 }

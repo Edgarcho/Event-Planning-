@@ -2,7 +2,8 @@ package models;
 
 import org.junit.Test;
 
-import java.util.HashMap;
+
+import java.util.ArrayList;
 
 import static org.junit.Assert.*;
 
@@ -12,11 +13,11 @@ import static org.junit.Assert.*;
 public class EventTest {
 
     @Test
-    public void returnEvent_returnFirstAttributes_HashMap(){
+    public void returnEvent_returnFirstAttributes_ArrayList(){
         Event testEvent = new Event();
-        HashMap<String,Integer> expectedOutput = new HashMap<String,Integer>();
-        expectedOutput.put("Guest",1);
-        assertEquals(expectedOutput,testEvent.returnEvent("Guest",1));
+        ArrayList<Object> expectedOutput = new ArrayList<Object>();
+        expectedOutput.add("1");
+        assertEquals(expectedOutput,testEvent.returnEvent("1"));
     }
 
 }
